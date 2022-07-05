@@ -8,7 +8,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
-    justify-content: center;
     margin-top: 0;
 }
 .banner{
@@ -36,4 +35,59 @@ body{
     color: white;
     font-weight:700;
     font-size: 25px;
+}
+.section-donate-plan{
+    height: 1000px;
+
+}
+.donate-container{
+    text-align: center;
+    padding-top: 150px;
+}
+.donate-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 450px;
+    width: 900px;
+
+}
+.donate-para{
+    color: gray;
+    font-size: 25px;
+    width: 900px;
+    padding-left: 450px;
+}
+#donate-amount-container{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+}
+.donate-amount{
+    background-color: rgba(220, 220, 220, 0.452);
+    padding: 60px 50px;
+    border-radius: 10px;
+    color: black;
+    font-weight:700;
+    font-size: 25px;
+}
+#donate-amount5{
+    background-color: rgba(237, 200, 200, 0.452);
+    padding: 60px 50px;
+    border-radius: 10px;
+    color: red;
+    font-weight:700;
+    font-size: 25px;
+    border: 2px solid red;
+}
+form{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#input-text{
+    color: gray;
+    font-size: 25px;
+}
+#input-box{
+    height: 50px;
+    width: 200px;
 }
