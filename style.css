@@ -83,14 +83,16 @@ form{
     justify-content: center;
     margin-bottom: 70px;
 }
-#input-text{
-    color: gray;
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(224, 222, 222);
+    width: 800px;
+    text-align: center;
     font-size: 25px;
 }
-#input-box{
-    height: 50px;
-    width: 200px;
-}
+::placeholder {
+    color: rgb(190, 187, 187);
+}  
 .donate-container2{
     text-align: center;
 }
