@@ -95,7 +95,8 @@ form{
     text-align: center;
 }
 #section-donate-plan{
-    height: 1000px;
+    height: 800px;
+    margin-bottom: 0;
 }
 #plan-container{
     margin-top: 100px;
@@ -122,4 +123,20 @@ form{
 .plan-text{
     color: gray;
     font-size: 25px;
+}
+footer{
+    height: 200px;
+    background-color: black;
+}
+footer h5{
+    color:coral;
+    font-size: 35px;
+    font-style: italic;
+    padding-top: 60px;
+margin-bottom: 0;
+
+}
+footer p{
+    color: white;
+    font-size: 20px;
 }
