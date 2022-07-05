@@ -1,0 +1,39 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.section-banner{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    justify-content: center;
+    margin-top: 0;
+}
+.banner{
+    justify-content: center;
+    padding-top: 200px;    
+}
+#banner-title{
+    color: white;
+    font-size: 70px;
+    width: 900px;
+    padding-left: 450px;
+    font-weight: bold;
+}
+#banner-para{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.donate-btn{
+    text-decoration: none;
+    background-image:linear-gradient(red,tomato);
+    padding: 25px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight:700;
+    font-size: 25px;
+}
