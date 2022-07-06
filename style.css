@@ -161,6 +161,19 @@ input[type="email"] {
   font-size: 25px;
 }
 
+#section-joinus{
+    height: 700px;
+    display:flex;
+    justify-content:space-around;
+}
+.joinus-img{
+    width: 200px;
+}
+.joinus-img img{
+    border: 10px solid white;
+    border-radius: 25px;
+}
+
 .subscribe-btn{
     height: 52px;
     width: 200px;
